@@ -1,0 +1,125 @@
+.about {
+	padding: 50px;
+
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.textabout texth {
+	font-size: 30px;
+}
+.ab_photo {
+	width: 90%;
+	margin: 20px;
+	margin-top: 50px;
+	border: rgb(212, 191, 191) solid;
+	border-radius: 50px;
+}
+.textabout {
+	padding: 20px;
+	font-weight: bold;
+	font-size: 1vw;
+	color: white;
+}
+ul {
+	font-size: 20px;
+}
+ul li {
+	font-size: 1.3vw;
+}
+text#ulh {
+	font-style: italic;
+}
+text#ulh a {
+	text-decoration: none;
+	color: rgb(185, 78, 78);
+}
+text#ulh a:hover {
+	text-decoration: none;
+	color: rgb(63, 61, 175);
+}
+.row span {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	color: white;
+	font-size: 1.5vw;
+}
+ul a {
+	color: white;
+}
+#content3::before {
+	white-space: pre;
+	color: white;
+}
+.col-sm-6 {
+	position: absolute;
+}
+@media (max-width: 959px) {
+	.about {
+		height: 620px;
+	}
+	.textabout {
+		font-size: 12px;
+	}
+}
+@media (max-width: 768px) {
+	.about {
+		padding: 10px;
+		height: 620px;
+		width: 100%;
+		background-repeat: no-repeat;
+	}
+	.ab_photo {
+		width: 50%;
+		margin: 0 auto;
+		margin: 10px;
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+		display: inline-block;
+	}
+
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: white;
+		font-size: 5px;
+	}
+	.textabout {
+		font-size: 9px;
+	}
+}
+@media (max-width: 414px) {
+	.about {
+		width: 100%;
+		height: 570px;
+		font-size: 20px;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	text#h {
+		font-size: 8px;
+	}
+	text#ulh {
+		font-size: 8px;
+	}
+	.ab_photo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: rgb(212, 191, 191) solid;
+		border-radius: 50px;
+		margin: auto;
+	}
+
+	.row span {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+			sans-serif;
+		color: white;
+	}
+	.about ul li {
+		font-size: 8px;
+	}
+	.textabout {
+		font-size: 10px;
+	}
+}

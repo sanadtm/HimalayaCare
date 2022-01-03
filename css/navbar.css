@@ -1,0 +1,41 @@
+.nav {
+	background-color: rgb(67, 65, 192);
+	position: relative;
+}
+.nav a {
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+		sans-serif;
+	float: left;
+	color: #f2f2f2;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.3vw;
+}
+
+.nav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.nav a.active {
+	color: orange;
+}
+
+@media (max-width: 415px) {
+	.nav a {
+		float: left;
+		color: #f2f2f2;
+		padding: 4px 6px;
+		text-decoration: none;
+		font-size: 5px;
+	}
+}
+@media (max-width: 768px) {
+	.nav a {
+		float: left;
+		color: #f2f2f2;
+		padding: 4px 6px;
+		text-decoration: none;
+		font-size: 12px;
+	}
+}
